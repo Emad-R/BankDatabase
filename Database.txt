@@ -1,0 +1,25 @@
+Customer: Samantha
+Account Number: 1234-5543
+Type of Account: Checking
+Balance: 1209.23
+
+Customer: Burt
+Account Number: 5896-3345
+Type of Account: Saving
+Balance: 18034.33
+
+Customer: Bianca
+Account Number: 2234-9094
+Type of Account: Checking
+Balance: 2803.54
+
+Customer: Tyler
+Account Number: 5342-9834
+Type of Account: Checking
+Balance: -2.38
+
+Customer: Amy
+Account Number: 3454-8873
+Type of Account: Saving
+Balance: 32459.57
+
