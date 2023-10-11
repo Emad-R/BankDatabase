@@ -4,10 +4,10 @@ import java.util.Scanner;
 // this class holds all the methods ~ is not the driver class
 
 public class ClientDetails {
-	private String accountNumber;  
+    private String accountNumber;  
     private String customerName;  
     private String typeOfAccount;  
-    private long balance;  
+    private double balance;  
     Scanner sc = new Scanner(System.in);  
    
 
@@ -21,7 +21,7 @@ public class ClientDetails {
 	        System.out.print("Enter Account type: ");  
 	        typeOfAccount = sc.next();  
 	        System.out.print("Enter Balance: ");  
-	        balance = sc.nextLong(); 
+	        balance = sc.nextDouble(); 
 
 		} 
 		
@@ -37,14 +37,14 @@ public class ClientDetails {
     }  
     //method to deposit money  
     public void deposit() {  
-        long amt;  
+        double amt;  
         System.out.println("Enter the amount you want to deposit: ");  
         amt = sc.nextLong();  
         balance = balance + amt;  
     }  
     //method to withdraw money  
     public void withdrawal() {  
-        long amt;  
+        double amt;  
         System.out.println("Enter the amount you want to withdraw: ");  
         amt = sc.nextLong();  
         if (balance >= amt) {  
