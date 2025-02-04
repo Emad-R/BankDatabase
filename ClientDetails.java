@@ -16,7 +16,7 @@ public class ClientDetails {
       
 	        System.out.print("Enter Name: ");  
 	        customerName = sc.next();  
-	        System.out.print("Enter Account No: ");  
+	        System.out.print("Enter Account Number: ");  
 	        accountNumber = sc.next();  
 	        System.out.print("Enter Account type: ");  
 	        typeOfAccount = sc.next();  
@@ -31,7 +31,7 @@ public class ClientDetails {
     //method to display account details  
     public void showAccount() {  
         System.out.println("Name of account holder: " + customerName);  
-        System.out.println("Account number:: " + accountNumber);  
+        System.out.println("Account number: " + accountNumber);  
         System.out.println("Account type: " + typeOfAccount);  
         System.out.println("Balance: " + balance);  
     }  
