@@ -31,7 +31,7 @@ public class ClientDetails {
     //method to display account details  
     public void showAccount() {  
         System.out.println("Name of account holder: " + customerName);  
-        System.out.println("Account no.: " + accountNumber);  
+        System.out.println("Account number:: " + accountNumber);  
         System.out.println("Account type: " + typeOfAccount);  
         System.out.println("Balance: " + balance);  
     }  
